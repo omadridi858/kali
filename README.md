@@ -1,3 +1,4 @@
+#macOS
 name: macOS
 on: 
   workflow_dispatch:
