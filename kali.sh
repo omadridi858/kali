@@ -14,8 +14,8 @@ echo "au - Australia (Sydney)"
 echo "sa - South America (Sao Paulo)"
 echo "jp - Japan (Tokyo)"
 echo "in - India (Mumbai)"
-read -p "choose ngrok region: " us
-./ngrok tcp --region $CRP 3388 &>/dev/null &
+
+./ngrok tcp --region us 3388 &>/dev/null &
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
