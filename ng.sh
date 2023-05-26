@@ -5,4 +5,4 @@ echo "======================="
 wget -O ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok.zip > /dev/null 2>&1
  
-./ngrok authtoken 
+./ngrok authtoken ${{ secrets.NGROK_AUTH_TOKEN }}
