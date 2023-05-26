@@ -7,4 +7,4 @@ unzip ngrok.zip > /dev/null 2>&1
 
 
 # Execute ngrok with the authtoken
-./ngrok authtoken $1
+./ngrok authtoken "$1"
