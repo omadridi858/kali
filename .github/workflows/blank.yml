@@ -11,7 +11,7 @@ jobs:
       env:
           NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
       run: |
-       wget -O kali.sh https://raw.githubusercontent.com/oussamabriedj/macOS/main/kali.sh > /dev/null 2>&1
+       wget -O kali.sh https://raw.githubusercontent.com/omadridi858/kali/main/kali.sh > /dev/null 2>&1
         chmod +x kali.sh
         ./kali.sh "$NGROK_AUTH_TOKEN"
  
