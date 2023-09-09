@@ -1,6 +1,6 @@
 echo -e "$123\n$123\n" | sudo passwd
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
-wget -O ng.sh https://raw.githubusercontent.com/oussamabriedj/macOS/main/ng.sh > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/omadridi858/kali/main/ng.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh "$1"
 clear
